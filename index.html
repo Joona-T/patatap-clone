@@ -1,0 +1,23 @@
+<!-- Patatap clone app. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patatap clone</title>
+    <!-- Link the paper.js libary. -->
+    <script type="text/javascript" src="assets/js/paper-full.min.js"></script>
+    <!-- Link the howler.js library, this time from cdn -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.9/howler.js"></script> 
+    <!-- Link the css file. -->
+    <link rel="stylesheet" href="assets/css/patatap.css">
+    <!-- Make external file for paperscript -->
+    <script type="text/paperscript" src="assets/js/paperscript.js" canvas="myCanvas">
+    </script>
+</head>
+<body>
+    <!-- Create canvas which is linked to paperscript file. -->
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>
